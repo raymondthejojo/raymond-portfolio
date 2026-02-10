@@ -1,0 +1,120 @@
+export const portfolioData = {
+    hero: {
+        name: "Raymond Hamah Amoah",
+        tagline: "Digital Asset Infrastructure & E-Banking Architect",
+        subtitle: "Building the bridge between traditional banking and tokenized finance.",
+        image: "/profile.jpg",
+        buttons: [
+            { label: "Schedule a Call", href: "#contact", primary: true },
+            { label: "View Resume", href: "/resume.pdf", primary: false },
+        ],
+        socials: [
+            { platform: "GitHub", href: "https://github.com", icon: "Github" },
+            { platform: "LinkedIn", href: "https://linkedin.com", icon: "Linkedin" },
+            { platform: "Email", href: "mailto:example@email.com", icon: "Mail" },
+        ],
+    },
+    about: {
+        content: "Experienced Digital Asset & E-Banking Architect with a focus on crypto portfolio infrastructure (ALPHA-365) and digital asset policy work for the Bank of Ghana. Expert in banking operations, automation, training, and stakeholder engagement, bridging the gap between traditional finance and the evolving digital asset landscape.",
+    },
+    projects: [
+        {
+            category: "Digital Assets",
+            title: "ALPHA-365 Crypto Portfolio Intelligence",
+            description: "Advanced crypto portfolio tracking and intelligence platform for institutional-grade digital asset management.",
+            techStack: ["Next.js", "TypeScript", "Node.js", "Web3.js"],
+            tags: ["Crypto", "Infrastructure"],
+            link: "#",
+        },
+        {
+            category: "Fintech Automation",
+            title: "EAGLE MONEY Subscription Tracker",
+            description: "Automated tracking system for recurring payments and subscriptions, optimizing personal and business finance.",
+            techStack: ["React", "Express", "PostgreSQL", "Plaid API"],
+            tags: ["Fintech", "Automation"],
+            link: "#",
+        },
+        {
+            category: "Quantitative Finance",
+            title: "Trading Strategy Automation",
+            description: "Automated execution of algorithmic trading strategies with risk management and real-time monitoring.",
+            techStack: ["Python", "Pandas", "ccxt", "AWS"],
+            tags: ["Trading", "Finance"],
+            link: "#",
+        },
+        {
+            category: "Regulatory & Policy",
+            title: "Digital Asset Policy Framework",
+            description: "Comprehensive policy framework developed for the Bank of Ghana for digital asset regulation and compliance.",
+            techStack: ["Regulatory Analysis", "Policy Writing"],
+            tags: ["Policy", "Regulation"],
+            link: "#",
+        },
+        {
+            category: "Enterprise Automation",
+            title: "Banking Automation Suite",
+            description: "Internal tools for optimizing banking operations, reconciliation, and reporting workflows.",
+            techStack: ["Python", "Power Automate", "SQL"],
+            tags: ["Banking", "Enterprise"],
+            link: "#",
+        },
+        {
+            category: "AI & Banking",
+            title: "SOP-to-LLM Knowledge System",
+            description: "AI-driven knowledge management system converting standard operating procedures into queryable intelligence.",
+            techStack: ["OpenAI", "LangChain", "Vector DB"],
+            tags: ["AI", "Knowledge Management"],
+            link: "#",
+        },
+    ],
+    experience: [
+        {
+            role: "E-Banking Officer",
+            organization: "GCB Bank",
+            bullets: [
+                "Led the 3DS ACS migration for enhanced secure digital payments.",
+                "Contributed to digital asset policy work and institutional blockchain training.",
+                "Managed card operations and payments, including secure issuance and UAT for mobile banking.",
+            ],
+        },
+        {
+            role: "Executive Content Support",
+            organization: "Digital Asset Summit Africa",
+            bullets: [
+                "Provided content support for high-level panels involving BoG, SEC, and GSE.",
+                "Facilitated discussions on digital asset regulation and capital markets innovation.",
+                "Engaged with key stakeholders in the African blockchain ecosystem.",
+            ],
+        },
+        {
+            role: "Operations Specialist",
+            organization: "Card Operations & Payments",
+            bullets: [
+                "Ensured secure issuance and reconciliation of payment cards.",
+                "Performed User Acceptance Testing (UAT) for mobile banking platforms.",
+                "Streamlined operational workflows for improved payment processing efficiency.",
+            ],
+        },
+    ],
+    skills: {
+        "Digital Assets & Blockchain": ["Tokenization", "CBDCs", "DeFi", "Liquidity Management", "Web3 Infrastructure"],
+        "Development & APIs": ["TypeScript", "Next.js", "Node.js", "Python", "REST/GraphQL APIs"],
+        "Banking & Fintech": ["Card Operations", "3DS ACS", "Payment Systems", "Core Banking Integration", "UAT"],
+        "Automation & Data": ["Workflow Automation", "Python Scripting", "Data Analysis", "SQL", "PowerBI"],
+        "Compliance & Governance": ["Digital Asset Policy", "Regulatory Reporting", "AML/KYC", "Risk Management"],
+    },
+    metrics: [
+        { value: "40%", label: "Operations Automated", icon: "Zap" },
+        { value: "95%", label: "Reconciliation Accuracy", icon: "CheckCircle" },
+        { value: "5+", label: "Major Projects Delivered", icon: "Package" },
+        { value: "100+", label: "Professionals Trained", icon: "Users" },
+        { value: "3", label: "Regulatory Engagements", icon: "FileText" },
+    ],
+    certifications: [
+        { title: "Digital Champion Award", year: "2025", provider: "GCB Bank" },
+        { title: "Scrum Foundation", year: "2024", provider: "CertiProf" },
+        { title: "Business Automation", year: "2023", provider: "IBM" },
+        { title: "AI in the Workplace", year: "2024", provider: "LinkedIn" },
+        { title: "Understanding Digital Customer", year: "2023", provider: "CIM" },
+    ],
+};
