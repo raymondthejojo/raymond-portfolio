@@ -6,6 +6,7 @@ import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Metrics from "./components/Metrics";
 import Certifications from "./components/Certifications";
+import CompanyTicker from "./components/CompanyTicker";
 import CallToAction from "./components/CallToAction";
 import Footer from "./components/Footer";
 
@@ -26,6 +27,7 @@ export default function Home() {
       <Skills />
       <Metrics />
       <Certifications />
+      <CompanyTicker />
       <CallToAction />
       <Footer />
     </main>

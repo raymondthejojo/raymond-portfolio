@@ -117,4 +117,15 @@ export const portfolioData = {
         { title: "AI in the Workplace", year: "2024", provider: "LinkedIn" },
         { title: "Understanding Digital Customer", year: "2023", provider: "CIM" },
     ],
+    companies: [
+        { name: "GCB Bank", logo: "/logos/Symbol.svg" },
+        { name: "GCB Brandmark", logo: "/logos/GCB_brandmark.png" },
+        { name: "Digital Asset Summit Africa", logo: "/logos/idGJU-jYYJ_logos.png" },
+        { name: "Npontu Technologies", logo: "/logos/npontu.png" },
+        { name: "DEY", logo: "/logos/dey_logo_new.png" },
+        { name: "Mobility", logo: "/logos/Mobility.jpg" },
+        { name: "BITS", logo: "/logos/BITS.png" },
+        { name: "Bank of Ghana", logo: "/logos/idabdnk2w8_logos.png" },
+        { name: "CertiProf", logo: "/logos/idNEskcJsj_1774038065737.png" },
+    ],
 };
