@@ -127,5 +127,6 @@ export const portfolioData = {
         { name: "BITS", logo: "/logos/BITS.png" },
         { name: "Bank of Ghana", logo: "/logos/idabdnk2w8_logos.png" },
         { name: "CertiProf", logo: "/logos/idNEskcJsj_1774038065737.png" },
+        { name: "StarOil", logo: "/logos/1680606552558.jpg" },
     ],
 };
